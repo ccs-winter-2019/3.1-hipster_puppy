@@ -42,7 +42,10 @@ SECRET_KEY = '^03tybnkg6ts@5+zdc6+f#1ahmbx@tww&zrq^9!cy)g_$!t)23'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'hipsterpuppy.herokuapp.com',
+]
 
 
 # Application definition
